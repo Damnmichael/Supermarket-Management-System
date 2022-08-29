@@ -113,5 +113,10 @@ namespace Supermarket_Management_System
             e.Graphics.DrawString("Price: " + Receipt.SelectedRows[0].Cells[3].Value.ToString() + " cedis", new Font("JetBrains Mono", 15, FontStyle.Bold), Brushes.Black, new Point(30, 160));
             e.Graphics.DrawString("Total: " + Receipt.SelectedRows[0].Cells[4].Value.ToString() + " cedis", new Font("JetBrains Mono", 15, FontStyle.Bold), Brushes.Black, new Point(30, 160));
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

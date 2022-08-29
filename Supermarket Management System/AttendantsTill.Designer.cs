@@ -164,6 +164,7 @@
             this.label2.Size = new System.Drawing.Size(20, 19);
             this.label2.TabIndex = 29;
             this.label2.Text = "X";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // AttendantsTill
             // 

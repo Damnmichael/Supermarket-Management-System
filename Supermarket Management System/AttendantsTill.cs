@@ -31,6 +31,11 @@ namespace Supermarket_Management_System
             timer.Stop();
         }
 
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
         private void OnTimeEvent(object sender, System.Timers.ElapsedEventArgs e)
         {
             Invoke(new Action(() =>

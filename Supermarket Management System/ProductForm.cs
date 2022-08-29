@@ -130,5 +130,10 @@ namespace Supermarket_Management_System
             this.Hide();
             atts.Show();
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
