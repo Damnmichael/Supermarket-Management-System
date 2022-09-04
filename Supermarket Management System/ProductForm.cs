@@ -135,5 +135,10 @@ namespace Supermarket_Management_System
         {
             Application.Exit();
         }
+
+        private void CatCb_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

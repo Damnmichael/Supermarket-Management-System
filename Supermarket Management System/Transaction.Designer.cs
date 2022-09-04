@@ -125,6 +125,7 @@
             this.Amount.Size = new System.Drawing.Size(104, 25);
             this.Amount.TabIndex = 33;
             this.Amount.Text = "AMOUNT";
+            this.Amount.Click += new System.EventHandler(this.Amount_Click);
             // 
             // PrintTb
             // 

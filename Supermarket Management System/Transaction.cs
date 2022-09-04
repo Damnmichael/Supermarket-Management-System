@@ -118,5 +118,11 @@ namespace Supermarket_Management_System
         {
             Application.Exit();
         }
+
+        private void Amount_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
+
 }

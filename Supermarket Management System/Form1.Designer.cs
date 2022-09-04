@@ -48,6 +48,7 @@
             this.UnameTb.Name = "UnameTb";
             this.UnameTb.Size = new System.Drawing.Size(181, 23);
             this.UnameTb.TabIndex = 1;
+            this.UnameTb.TextChanged += new System.EventHandler(this.UnameTb_TextChanged);
             // 
             // PassTb
             // 
@@ -197,6 +198,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

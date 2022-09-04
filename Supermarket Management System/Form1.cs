@@ -89,5 +89,15 @@ namespace Supermarket_Management_System
             this.Hide();
             signup.Show();
         }
+
+        private void UnameTb_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
